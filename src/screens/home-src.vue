@@ -120,7 +120,7 @@ export default {
     filterCamera() {
       this.displayItems = [];
       for (let i = 0; i < this.items.length; i++) {
-        if (this.items[i].type == 'mouse') {
+        if (this.items[i].type == 'camera') {
           this.displayItems.push(this.items[i])
         }
       }
@@ -129,7 +129,7 @@ export default {
     filterSmartwatch() {
       this.displayItems = [];
       for (let i = 0; i < this.items.length; i++) {
-        if (this.items[i].type == 'mouse') {
+        if (this.items[i].type == 'watch') {
           this.displayItems.push(this.items[i])
         }
       }
